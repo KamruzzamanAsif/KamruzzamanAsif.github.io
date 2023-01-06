@@ -1,0 +1,55 @@
+#mid-page-div{
+    background-color: rgb(243, 229, 217);
+    height: 80%;
+    width: 100%;
+    /* background-image: url("images/background1.jpeg"); */
+}
+
+#left-div{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+#right-div{
+    padding-top: 5%;
+    padding-right: 20%;
+}
+
+#home-mid-page-image{
+    height: auto;
+    width: 150%;
+    float: left;
+}
+
+#p-1{
+    position: relative;
+    z-index: 10;
+    display: block;
+    color: hsla(0, 14%, 20%, 0.95);
+    font-size: 2em;
+    font-weight: 600;
+    padding-left: 20%;
+}
+
+#p-2{
+    position: relative;
+    z-index: 10;
+    display: block;
+    color: hsla(0, 14%, 20%, 0.95);
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-left: 10%;
+}
+
+#p-3{
+    position: relative;
+    z-index: 10;
+    display: block;
+    color: hsla(0, 14%, 20%, 0.95);
+    font-size: 1.45em;
+    font-weight: 500;
+    padding-left: 0%;
+    padding-right: 20%;
+    text-align: justify;
+    text-justify: auto;
+}

@@ -1,8 +1,9 @@
 #mid-page-div{
     background-color: rgb(243, 229, 217);
-    height: 80%;
+    height: 90%;
     width: 100%;
     /* background-image: url("images/background1.jpeg"); */
+    padding-bottom: 15%;
 }
 
 #left-div{
@@ -11,14 +12,17 @@
 }
 
 #right-div{
-    padding-top: 5%;
+    padding-top: 3%;
     padding-right: 20%;
+    height: 100%;
+    width: 33%;
 }
 
 #home-mid-page-image{
     height: auto;
-    width: 150%;
+    width: 200%;
     float: left;
+    border-radius: 10%;
 }
 
 #p-1{
@@ -53,3 +57,94 @@
     text-align: justify;
     text-justify: auto;
 }
+
+/*--------------------------------------------------------------
+# Interests
+--------------------------------------------------------------*/
+.interests .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #09203a;
+    transition: ease-in-out 0.3s;
+    box-sizing: border-box;
+  }
+  
+  
+  .interests .icon-box i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+  
+  .interests .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .interests .icon-box:hover {
+    background: #042b56eb;
+  }
+
+  .interests{
+    width: 100%;
+    background-color: rgb(195, 195, 245);
+    padding-top: 7%;
+    padding-bottom: 7%;
+  }
+
+
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: hsla(0, 14%, 20%, 0.95);
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    color: hsla(0, 14%, 20%, 0.95);
+    margin: 4px 10px;
+  }
+  
+  .section-title p {
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: hsla(0, 14%, 20%, 0.95);
+  }
+
+  .skill-title h2{
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 3%;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: hsla(0, 14%, 20%, 0.95);
+    font-family: "Poppins", sans-serif;
+  }
+
+  .row{
+    box-sizing: border-box;
+  }
+
+  .col-lg-3{
+    padding-bottom: 2%;
+  }

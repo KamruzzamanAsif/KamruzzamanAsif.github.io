@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   output: 'export',
-  basePath: '/KamruzzamanAsif.github.io',
+  //basePath: '/KamruzzamanAsif.github.io',
 };
 
 export default nextConfig;

@@ -10,6 +10,7 @@ export interface AboutMe {
   googleScholarUrl?: string;
   twitterUsername?: string;
   githubUsername?: string;
+  kaggleUsername?: string;
   linkedinUsername?: string;
   funDescription?: string; // Gets placed in the left sidebar
   secretDescription?: string; // Gets placed in the bottom
@@ -18,22 +19,23 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Jane R. Smith",
-  title: "Ph.D. Candidate",
-  institution: "Stanford University",
+  name: "Kamruzzaman Asif",
+  title: "Software Engineering Undergrad",
+  institution: "University of Dhaka",
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
+    "I'm a final-year <a href='http://www.iit.du.ac.bd'>software engineering undergrad</a> at University of Dhaka. My research focuses on machine learning, deep learning, and generative AI, specifically addressing web memory leaks in Single-Page Applications. I have interned at <a href='https://selisegroup.com/'>SELISE Digital Platforms</a>, gaining experience in data engineering and machine learning solutions. My technical skills include Python, PySpark, SQL, and various libraries and frameworks. I have achieved recognition in competitions like <b>BUET DL Sprint 3.0</b> and <b>ASR for Regional Dialects, Bengali.AI x IUT</b>.",
+  email: "bsse1217@iit.du.ac.bd",
   imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
+    "/asif.jpg",
+  // googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
+  githubUsername: "KamruzzamanAsif",
+  kaggleUsername: "kamruzzamanasif",
+  linkedinUsername: "kamruzzaman-asif",
+  // twitterUsername: "janesmith",
+  // blogUrl: "https://",
+  // cvUrl: "https://",
+  institutionUrl: "http://www.iit.du.ac.bd",
   // altName: "",
   // secretDescription: "I like dogs.",
 };

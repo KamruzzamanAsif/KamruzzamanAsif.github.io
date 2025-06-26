@@ -9,6 +9,15 @@ export interface Portfolio {
 
 export const portfolioData: Portfolio[] = [
   {
+    title: "BanglaFake",
+    description:
+      "Constructing and Evaluating a Specialized Bengali Deepfake Audio Dataset",
+    technologies: ["Python", "ML"],
+    //projectUrl: "https://github.com/KamruzzamanAsif/LeakNix",
+    // imageUrl: "https://images.unsplash.com/photo-1508610048659-a06b669e3321?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fG1vYmlsZSUyMGRldmVsb3BlcnxlbnwwfHx8fDE2NTgzMjEyNzA&ixlib=rb-1.2.1&q=80&w=1080",
+    codeUrl: "https://github.com/KamruzzamanAsif/BanglaFake",
+  },
+  {
     title: "LeakNix",
     description:
       "Designed and developed a tool to detect and fix web memory leaks in Single-Page Applications (SPAs). Utilized Puppeteer Web Driver to simulate real user interactions and analyze browser heap memory profiles. Implemented automated leak detection and generated detailed reports with proposed fixes.",

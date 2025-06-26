@@ -20,12 +20,12 @@ export interface AboutMe {
 
 export const aboutMe: AboutMe = {
   name: "Kamruzzaman Asif",
-  title: "Software Engineering Undergrad",
+  title: "Software Engineering Graduate",
   institution: "University of Dhaka",
 
   // Note that links work in the description
   description:
-    "I'm a final-year <a href='http://www.iit.du.ac.bd'>software engineering undergrad</a> at University of Dhaka. My research focuses on machine learning, deep learning, and generative AI, specifically addressing web memory leaks in Single-Page Applications. I have interned at <a href='https://selisegroup.com/'>SELISE Digital Platforms</a>, gaining experience in data engineering and machine learning solutions. My technical skills include Python, PySpark, SQL, and various libraries and frameworks. I have achieved recognition in competitions like <b>BUET DL Sprint 3.0</b> and <b>ASR for Regional Dialects, Bengali.AI x IUT</b>.",
+    "I'm a <a href='http://www.iit.du.ac.bd'>Software Engineering graduate</a> from the University of Dhaka. My research focuses on machine learning, deep learning, and generative AI, specifically addressing reverse engineering of webassembly. I have interned at <a href='https://selisegroup.com/'>SELISE Digital Platforms</a>, gaining hands-on experience in data engineering and machine learning solutions. My technical skills include Python, PySpark, SQL, and various libraries and frameworks.",
   email: "bsse1217@iit.du.ac.bd",
   imageUrl:
     "/asif.jpg",
@@ -33,9 +33,9 @@ export const aboutMe: AboutMe = {
   githubUsername: "KamruzzamanAsif",
   kaggleUsername: "kamruzzamanasif",
   linkedinUsername: "kamruzzaman-asif",
-  // twitterUsername: "janesmith",
+  twitterUsername: "asif_kx",
   // blogUrl: "https://",
-  cvUrl: "https://docs.google.com/document/d/e/2PACX-1vRVDtYJhCjpVUWSBWEetBH9vtYjmIaCv8-JbKT0uxi8Brhf5lo0_kB7N1FiP-ih7YZ0oVAk1yw62uQ4/pub",
+  cvUrl: "https://docs.google.com/document/d/1fvSPTh5JFH_wP_WX6aZ10rE4erb373Ppx3sTsROD-d4/edit?usp=sharing",
   institutionUrl: "http://www.iit.du.ac.bd",
   // altName: "",
   // secretDescription: "I like dogs.",

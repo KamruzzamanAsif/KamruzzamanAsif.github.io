@@ -7,6 +7,16 @@ export interface News {
 
 export const newsData: News[] = [
   {
+    date: "2025",
+    title: "Provost Award 2025",
+    description: "Provost Award 2025 for outstanding academic performance in the Software Engineering program at the University of Dhaka.",
+  },
+  {
+    date: "2025",
+    title: "6th at Poridhi AI Engineering Hackathon Powered By Brain Station 23",
+    description: "Exprienced the thrill of competing in the Poridhi AI Engineering Hackathon.",
+  },
+  {
     date: "2024",
     title: "6th at BUET DL Sprint 3.0",
     description: "Recognized as a finalist in the Bengali AI Math Olympiad 2024.",

@@ -12,13 +12,18 @@ export const educationData: Education[] = [
   {
     year: "2025—Present",
     institution: "University of Dhaka",
-    degree: "Msc in Software Engineering",
+    degree: "M.Sc. in Software Engineering",
   },
   {
     year: "2019—2025",
     institution: "University of Dhaka",
-    degree: "Bsc in Software Engineering",
+    degree: "B.Sc. in Software Engineering",
   },
+  // {
+  //   year: "2017—2019",
+  //   institution: "Notre Dame College, Dhaka",
+  //   degree: "Higher Secondary School Certificate (HSC)",
+  // },
   // {
   //   year: "2017—2021",
   //   institution: "Massachusetts Institute of Technology",
